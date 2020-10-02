@@ -1,0 +1,56 @@
+
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  box-shadow: none;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #000000 url(../img/back-to-top-arrow.png) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 99999;
+  border-radius: 20px;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  
+  /*opacity: .5;*/
+  opacity: .3;
+}
+.no-touch .cd-top:hover {
+  background-color: #ffd471;
+  opacity: 1.0;
+}
+a.cd-top:hover  {
+  background-color: #000000;
+  opacity: 1.0;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 80px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    bottom: 80px;
+  }
+}

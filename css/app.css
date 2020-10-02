@@ -1,0 +1,864 @@
+
+
+
+/* Custom Styles (CSS) for Design 446 - Impactship */
+
+/* Thank you text */
+p.thank-you-text {
+	padding: 10%;
+	font-weight: 500;
+	text-align: center;
+	font-size:20px;
+}
+
+
+/* Custom .grid-container */
+.grid-container {
+	max-width: 93.75rem;
+}
+
+
+/* Intern Writing Background */
+.wrap {
+    height: 100%;  
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('../img/design446-intern-writing2.jpg') no-repeat center center;
+	background-size: cover;
+	transform: scale(1.1);
+	z-index: 1;
+}
+
+.bg2 {
+	background: url('../img/design446-intern-writing2.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	background-position: center;
+}
+
+.interns-tablet-stylus_bg {
+	background: url('../img/design446-interns-tablet-stylus.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	background-position: center;
+}
+
+.text-circle-position {
+	position: absolute;
+	z-index: 2;
+	height: 942px;
+	margin: 8% 0% 0% 20%;
+	width: 100%;
+}
+
+/*Interns Social Media Background*/
+.interns-social-media_bg {
+	background-image: url("../img/design446-interns-social-media.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 46.8rem;
+	width: 100%;
+}
+
+.interns-social-media_bg_mobile {
+	background: url('../img/design446-interns-social-media.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	background-position: center;
+}
+
+
+/* Remove dotted around links */
+a {
+    outline: 0;
+}
+
+
+a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color:#444446
+	font-weight: 500; 
+	line-height: 32px;
+}
+
+p.qualifications-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	color: #444446;
+	font-weight: 600; 
+}
+
+
+
+ul.bullets {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	color: #444446;
+	font-weight: 600;
+	line-height: 40px;
+	padding-top: 25px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 102px;
+	color: #005aa2;
+	font-weight: 300; 
+	line-height: 85px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 67px;
+	color:#005aa2;
+	font-weight: 400; 
+	line-height: 65px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	color:#005aa2;
+	font-weight: 600; 
+	padding-top: 5%;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	color: #444446;
+	font-weight: 600; 
+}
+
+h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 500; 
+	line-height: 65px;
+}
+
+/* Spacing */
+
+.section-spacing {
+	padding: 150px 0px 150px 0px;
+}
+
+.section-spacing-form {
+	padding: 150px 0px 150px 0px;
+}
+
+.header-cell-spacing {
+	padding: 0% 5% 0% 10%;
+}
+
+.header-text-spacing {
+	padding: 25px 0px 25px 0px;
+}
+
+.whyus-cell-spacing {
+	padding: 0% 4% 0% 10%;
+}
+
+.whyus-boldtext-spacing {
+	padding: 25px 0px 25px 0px;
+}
+
+.whyyou-cell-spacing {
+	padding: 0% 10% 0% 4%;
+}
+
+.whyyou-boldtext-spacing {
+	padding:25px 0px 25px 0px;
+}
+
+.responsibilities-cell-spacing {
+	padding: 0% 0% 0% 15%;
+}
+
+.responsibilities-bullets-cell-spacing {
+	padding: 9% 15% 9% 4%;
+}
+
+.qualifications-cell-spacing {
+	padding: 4% 10% 0% 20%;
+}
+
+
+.form-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	color:#444446;
+	font-weight: 400; 
+	text-align: center;
+	line-height: 50px;
+	padding-bottom: 50px;
+}
+
+.form-title span {
+	font-size: 67px;
+	color:#005aa2;
+}
+
+.footer-position {
+	text-align: center;
+}
+
+
+.footer-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 500;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+
+.footer-text-copyrights {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color:#ffffff;
+	font-weight: 500; /*regular*/
+	padding-top: 0px;
+}
+
+.lightblue_bg {
+	background-color: #f0f5fa;
+}
+
+.white_bg {
+	background-color: #ffffff;
+}
+
+.footer_bg {
+	background-color: #005aa2;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+img.header-logo-position {
+	margin-left: -15px;
+	margin-top: 50px;
+	max-width: 410px;
+	margin-bottom: 50px;
+}
+
+
+img.design446-footer-logo {
+	max-width:250px;
+}
+
+/* CONTACT FORM  */
+.button.register-today-btn {
+	background-color: #fbb71f;
+	width: 280px;
+	border: none;
+	cursor: pointer;
+	background-position: center;
+	border-radius: 50px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 6px 0px 94px 0px;
+	padding: 27px;
+}
+
+.button.register-today-btn:hover {
+	background-color: #005aa2;
+}
+
+
+input.contact-form-submitformbtn {
+	background-color: #005aa2;
+	width: 250px;
+	border: none;
+	cursor: pointer;
+	background-position: center;
+	border-radius: 50px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 23px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 50px 0px 2px 0px;
+	padding: 27px;
+}
+
+input.contact-form-submitformbtn:hover {
+	background-color: #004073;
+}
+
+/*First Name*/
+input.contact-input-box.firstname {
+	width: 96%;
+	height: 58px;
+	background-color: #ffffff !important;
+	border: 0px solid #d8d5d5;
+	padding-left: 5%;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 1px;
+	display: block;
+	outline: none;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/*Last Name*/
+input.contact-input-box.lastname {
+	width:100%;
+	height: 58px;
+	background-color: #ffffff !important;
+	padding-left: 5%;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 1px;
+	display: block;
+	outline: none;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/*Phone*/
+input.contact-input-box.phone {
+	width: 96%;
+	height: 58px;
+	background-color: #ffffff !important;
+	padding-left: 5%;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 1px;
+	display: block;
+	outline: none;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #444446
+	font-weight: 400;
+}
+
+/*Email*/
+input.contact-input-box.email {
+	width:100%;
+	height: 58px;
+	background-color: #ffffff !important;
+	padding-left: 5%;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 0px;
+	display: block;
+	outline: none;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #444446
+	font-weight: 400;
+}
+
+/*Address*/
+input.contact-input-box.address {
+	width: 96%;
+	height: 58px;
+	background-color: #ffffff !important;
+	padding-left: 5%;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 1px;
+	display: block;
+	outline: none;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #444446
+	font-weight: 400;
+}
+
+/*Dropdown*/
+select.contact-input-box {
+	width:100%;
+	height: 58px;
+	background-color:#ffffff !important;
+	padding-left:5%;
+	padding-right: 2.5rem;
+	box-shadow:none;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius:1px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #444444
+	font-weight: 400;
+	display:block;
+	outline:none;
+	border: solid 2px #0064b4;
+}
+
+/*Comments*/
+textarea.contact-textarea-box {
+	width: 100%;
+	height: 159px;
+	background-color:#ffffff !important;
+	padding-left:2%;
+	padding-top:2%;
+	box-shadow:none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius:1px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #444446
+	font-weight: 400;
+	display:block;
+	outline:none;
+	border:none;
+}
+
+/*Remove placeholder opacity*/
+input::placeholder, textarea::placeholder {
+	opacity: 1;
+}
+
+
+.contactus-form-row {
+	margin-bottom:12px;
+}
+
+
+label	{font-size:18px;font-weight:400;margin-top:0px;margin:0px 0px 0px 6%;cursor:default;color:#ffffff;}
+
+
+.required-text		{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #7b7b7b;
+}
+
+.required-text span		{
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.form-err {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: red;
+	font-weight: 400;
+}
+
+.contactus-form-row-submit-footnote		{display:none;margin-top:7px;}
+
+input.contact-input-box::-webkit-input-placeholder, textarea.contact-textarea-box::-webkit-input-placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	color:#000000;
+	font-weight:400;
+}
+input.contact-input-box:-moz-placeholder, textarea.contact-textarea-box:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	color:#000000;
+	font-weight:400;
+}
+input.contact-input-box::-moz-placeholder, textarea.contact-textarea-box::-moz-placeholder { /* Mozilla Firefox 19+ */
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	color:#000000;
+	font-weight:400;
+}
+input.contact-input-box:-ms-input-placeholder, textarea.contact-textarea-box:-ms-input-placeholder { /* Internet Explorer 10+ */
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	color:#000000;
+	font-weight:400;
+}
+/* END CONTACT FORM */
+
+
+/*MOBILE*/
+
+/* @1479 */
+@media screen and (max-width: 1479px) {
+h1 {
+	font-size: 80px;
+	line-height: 71px;
+}
+h2 {
+	font-size: 55px;
+	line-height: 56px;
+}
+h4 {
+	font-size: 20px;
+}
+img.header-logo-position {
+	max-width: 353px;
+}
+ul.bullets {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 35px;
+}
+p.qualifications-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #444446;
+	font-weight: 600;
+}
+}
+
+/* @1160 */
+@media screen and (max-width: 1160px) {
+img.header-logo-position {
+	margin-left: -11px;
+	margin-top: 50px;
+	max-width: 270px;
+	margin-bottom: 50px;
+}
+
+.responsibilities-bullets-cell-spacing {
+	padding: 8% 15% 9% 4%;
+}
+
+h1 {
+	font-size: 62px;
+	line-height: 59px;
+}
+
+h2 {
+	font-size: 45px;
+	line-height: 42px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 29px;
+}
+
+ul.bullets {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.form-title {
+	font-size: 28px;
+	line-height: 38px;
+}
+
+.button.register-today-btn {
+	width: 235px;
+	font-size: 18px;
+}
+p.qualifications-text {
+	font-size: 18px;
+}
+
+input.contact-form-submitformbtn {
+	width: 215px;
+	font-size: 18px;
+}
+
+.form-title span {
+	font-size: 50px;
+	color: #005aa2;
+}
+h4 {
+	font-size:18px;
+}
+}
+
+/* @1023 Portrait */
+@media screen and (max-width: 1023px) {
+
+.section-spacing-form {
+	padding: 10%;
+}
+
+img.header-logo-position {
+	max-width: 340px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80px;
+	line-height: 70px;
+}
+
+.header-text-spacing {
+	padding: 25px 30px 25px 0px;
+}
+
+.section-spacing {
+	padding: 10%;
+}
+
+.whyyou-cell-spacing {
+	padding: 5% 0% 0% 0%;
+}
+
+.whyus-cell-spacing {
+	padding: 0% 0% 0% 0%;
+}
+
+.responsibilities-bullets-cell-spacing {
+	padding: 0% 0% 0% 0%;
+}
+
+.responsibilities-bullets-cell-spacing_mobile {
+	padding: 10%;
+}
+
+.responsibilities-cell-spacing {
+	padding: 0% 0% 0% 0%; 
+}
+
+/*First Name*/
+input.contact-input-box.firstname {
+	width: 100%;
+}
+
+/*Phone*/
+input.contact-input-box.phone {
+	width: 100%;
+}
+
+/*Address*/
+input.contact-input-box.address {
+	width: 100%;
+}
+
+.qualifications-cell-spacing {
+	padding: 10%;
+}
+
+h3 {
+	padding-top: 0%;
+}
+textarea.contact-textarea-box {
+	padding-left: 5%;
+	padding-top: 3%;
+}
+}
+
+/* @500 Portrait */
+@media screen and (max-width: 500px) {
+
+h1 {
+	font-size: 60px;
+	line-height: 55px;
+}
+
+.form-title {
+	font-size: 22px;
+	line-height: 32px;
+}
+.form-title span {
+	font-size: 32px;
+}
+img.header-logo-position {
+	max-width: 262px;
+}
+.section-spacing-form {
+	padding: 5%;
+}
+.footer-text {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 500;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.footer-text-copyrights {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 500;
+	padding-top: 0px;
+}
+img.design446-footer-logo {
+	max-width: 175px;
+}
+.footer_bg {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+}
+
+
+/* @375 Portrait */
+@media screen and (max-width: 375px) {
+
+h1 {
+	font-size: 50px;
+	line-height: 43px;
+}
+
+.bg2 {
+	height: 200px;
+}
+
+h2 {
+	font-size: 35px;
+	line-height: 36px;
+}
+.interns-tablet-stylus_bg {
+	height: 200px;
+}
+.interns-social-media_bg_mobile {
+	height: 200px;
+}
+img.design446-footer-logo {
+	max-width: 150px;
+}
+.footer-text {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 500;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.footer-text-copyrights {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 500;
+	padding-top: 0px;
+}
+.section-spacing-form {
+	padding: 5%;
+}
+.footer_bg {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.whyyou-cell-spacing {
+	padding: 10% 0% 0% 0%;
+}
+.section-spacing-form {
+	padding: 10% 2% 10% 2%;
+}
+.form-title span {
+	font-size: 20px;
+	font-weight: 600;
+}
+.form-title {
+	font-size: 16px;
+	line-height: 29px;
+	padding-bottom: 35px;
+}
+h3 {
+	font-size: 35px;
+	font-weight: 400;
+}
+ul.bullets {
+	padding-top: 20px;
+}
+p.qualifications-text {
+	font-size: 18px;
+	padding-top: 10px;
+}
+input.contact-form-submitformbtn {
+	margin: 24px 0px 2px 0px;
+}
+input.contact-input-box::placeholder, textarea.contact-textarea-box::placeholder {
+	font-size: 16px;
+}
+textarea.contact-textarea-box {
+	padding-left: 6%;
+	padding-top: 6%;
+}
+img.header-logo-position {
+	margin-left: -11px;
+	margin-top: 10%;
+	max-width: 223px;
+	margin-bottom: 5%;
+}
+.header-cell-spacing {
+	padding: 0% 10% 0% 10%;
+}
+.header-text-spacing {
+	padding: 12px 0px 8px 0px;
+}
+.button.register-today-btn {
+	width: 211px;
+	font-size: 16px;
+	margin: 6px 0px 63px 0px;
+	padding: 22px;
+}
+input.contact-form-submitformbtn {
+	width: 165px;
+	font-size: 16px;
+	margin: 25px 0px 2px 0px;
+	padding: 22px;
+}
+p {
+	line-height: 28px;
+}
+.whyus-boldtext-spacing {
+	line-height: 27px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
